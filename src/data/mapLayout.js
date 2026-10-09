@@ -1,0 +1,58 @@
+// Screen positions for map nodes, as normalized artwork coordinates (0..1).
+// Presentation only: the engine never reads this file and movement legality
+// never depends on it (see locations.js).
+//
+// Initial positions approximate the psypoke Kanto reference map used for the
+// physical board. To align with new artwork: open the prototype, enable
+// "Edit layout", drag nodes, then "Export layout" and replace this file.
+export const MAP_LAYOUT = {
+  id: 'reference-v1',
+  positions: {
+    'indigo-plateau': { x: 0.08, y: 0.05 },
+    'victory-road': { x: 0.06, y: 0.17 },
+    'route-23': { x: 0.05, y: 0.29 },
+    'route-22': { x: 0.09, y: 0.4 },
+    'pewter-city': { x: 0.22, y: 0.09 },
+    'route-3': { x: 0.32, y: 0.12 },
+    'mt-moon': { x: 0.4, y: 0.04 },
+    'route-4': { x: 0.47, y: 0.12 },
+    'unknown-dungeon': { x: 0.53, y: 0.04 },
+    'cerulean-city': { x: 0.58, y: 0.15 },
+    'route-24': { x: 0.63, y: 0.06 },
+    'route-25': { x: 0.71, y: 0.03 },
+    'bills-cottage': { x: 0.78, y: 0.04 },
+    'route-9': { x: 0.7, y: 0.14 },
+    'rock-tunnel': { x: 0.84, y: 0.11 },
+    'route-10': { x: 0.81, y: 0.22 },
+    'power-plant': { x: 0.92, y: 0.2 },
+    'digletts-cave': { x: 0.28, y: 0.21 },
+    'viridian-forest': { x: 0.19, y: 0.31 },
+    'celadon-city': { x: 0.43, y: 0.24 },
+    'route-16': { x: 0.31, y: 0.31 },
+    'route-5': { x: 0.6, y: 0.24 },
+    'route-7': { x: 0.52, y: 0.3 },
+    'saffron-city': { x: 0.61, y: 0.36 },
+    'route-8': { x: 0.74, y: 0.33 },
+    'lavender-town': { x: 0.86, y: 0.33 },
+    'route-12': { x: 0.85, y: 0.46 },
+    'route-2': { x: 0.2, y: 0.44 },
+    'route-6': { x: 0.61, y: 0.47 },
+    'viridian-city': { x: 0.2, y: 0.55 },
+    'route-11': { x: 0.74, y: 0.55 },
+    'vermilion-city': { x: 0.62, y: 0.58 },
+    'route-1': { x: 0.2, y: 0.65 },
+    'route-17': { x: 0.34, y: 0.62 },
+    'route-13': { x: 0.83, y: 0.63 },
+    'pallet-town': { x: 0.22, y: 0.75 },
+    'safari-zone': { x: 0.53, y: 0.71 },
+    'route-14': { x: 0.77, y: 0.73 },
+    'route-15': { x: 0.66, y: 0.83 },
+    'route-18': { x: 0.43, y: 0.82 },
+    'fuchsia-city': { x: 0.54, y: 0.87 },
+    'route-21': { x: 0.24, y: 0.85 },
+    'cinnabar-island': { x: 0.25, y: 0.94 },
+    'route-20': { x: 0.33, y: 0.96 },
+    'seafoam-islands': { x: 0.4, y: 0.92 },
+    'route-19': { x: 0.48, y: 0.96 },
+  },
+};
