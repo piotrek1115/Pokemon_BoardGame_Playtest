@@ -1,0 +1,19 @@
+{
+  "id": "./table.html",
+  "name": "Pokémon Kanto — rodzinna gra planszowa",
+  "short_name": "Pokémon Kanto",
+  "description": "Tabletowy prototyp rodzinnej gry planszowej Pokémon Kanto.",
+  "lang": "pl",
+  "start_url": "./table.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "icons": [
+    { "src": "./assets/icons/tablet-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/tablet-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/tablet-icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./assets/icons/tablet-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
